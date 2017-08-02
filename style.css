@@ -1,0 +1,36 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	align-items: center;
+	justify-content: center;
+}
+.container h1{
+	order: -5;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.customer-container h2{
+
+	border-bottom: solid lightgreen 4px;
+	margin-bottom: 0px;
+}
+.customer-container{
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	
+}
+.customer-container img{
+	width: 100%;
+}
+.email{
+	font-size: 15px;
+	color: lightgrey;
+	margin-top: 0px;
+	margin-bottom: 35px;
+}
